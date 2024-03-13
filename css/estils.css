@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background:;
+}
+
+
+#start {
+    background: purple;
+}
+
+#welcome {
+    background: orange;
+}
+
+#login {
+    background: pink;
+}
+
+#register {
+    background: olive;
+}
+
+#start img {
+    position: absolute;
+    width: 10rem;
+    height: 8rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-5rem, -4rem);
+}
+
+.botonera {
+    background: white;
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+}
+
+.botonera ul {
+
+}
+
+.botonera ul li {
+    display: block;
+    width: 25vw;
+    height: 10vh;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    opacity: 0.5;
+}
+
+.botonera ul li:hover {
+    opacity: 1;
+}
+
+.home {
+    background-image:url(../img/barra/Home_icon@4.png);
+}
+
+.mapa {
+    background-image:url(../img/barra/Mapa_icon@4.png);
+}
+
+.cerca {
+    background-image:url(../img/barra/Buscar_icon@4.png);
+}
+
+.perfil {
+    background-image:url(../img/barra/Perfil_icon@4.png);
+}
+
+
+.profile, .contingut {
+    width: 322px;
+    margin: 0 auto;
+}
+
+.profile .foto {
+    width: 154px;
+    height: 154px;
+    border-radius: 50%;
+    background-color: #FF7728; 
+    margin: 50px auto;
+    background-image: url();
+}
+
+.contingut input {
+    display: block;
+    width: 322px;
+    margin:30px auto;
+    background-color: #FF7728;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.contingut input:hover {
+    opacity: 0.5;
+}
